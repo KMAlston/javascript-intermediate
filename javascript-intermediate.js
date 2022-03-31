@@ -13,24 +13,33 @@
 // const carFavorite = [carNames,carModel]
 // console.log({carFavorite})
 
-const krystalProfile = {
+// const krystalProfile = {
     
-    address: {
-        street: ' South Lynnhaven'
-        city: 'Virginia Beach'
-        state: 'VA'
-    }
-    name: {
-        first: 'Krystal'
-        last: 'Alston'
-    }
-    phone: {
-        primary: '123-546-7890'
-        secondary: '098-765-4321'
-    }
-    favoriteMusic: ['hip hop','r&b','soca']
+//     address: {
+//         street: ' South Lynnhaven'
+//         city: 'Virginia Beach'
+//         state: 'VA'
+//     }
+//     name: {
+//         first: 'Krystal'
+//         last: 'Alston'
+//     }
+//     phone: {
+//         primary: '123-546-7890'
+//         secondary: '098-765-4321'
+//     }
+//     favoriteMusic: ['hip hop','r&b','soca']
 
 
+
+// }
+// console.log(krystalProfile.name.first, krystalProfile.name.last)
+
+const food = 'sushi'
+const array = ['kris','kevin','julian']
+console.log(array.length)
+
+for(let i =0;i<array.length;i++ ){
+    console.log(i)
 
 }
-console.log(krystalProfile.name.first, krystalProfile.name.last)
