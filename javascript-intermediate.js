@@ -37,13 +37,16 @@
 
 const food = 'sushi'
 const array = ['kris','kevin','julian']
-const favFoods =
 
-for(let i =0;i<array.length;i++ ){
-    console.log(array[i])
+// for(let i =0;i<array.length;i++ ){
+//     console.log(array[i])
 
-}
+// }
 
-for(let i = array.length-1;i>0; i--){
-    console.log(array[i])
+for (let i =0; i < food; i++){
+    if (food[i]==="sushi"){
+        console.log('Im hungry',i,food[i])
+    }
+}else{
+    console.log('I am not hungry',i,food[i])
 }
